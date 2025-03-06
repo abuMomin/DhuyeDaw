@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 15px;
+	
+}
+
+#mainDiv{
+    margin: 50px;
+    background-image: url(images/bg.jpg);
+	background-color: rgb(245, 245, 220, 0.5);
+    height: 450px;
+}
+
+#titleDiv{
+    height: 80px;
+    padding: 25px 0px;
+    border: 4px dotted grey;
+    border-style: outset;
+    text-decoration: underline overline;
+    background-color: beiges;
+    text-align: center;
+    font-size: 300%;
+    font-weight: bolder;
+}

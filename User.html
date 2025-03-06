@@ -1,0 +1,78 @@
+<html>
+    <head lang="en">
+        <title>DHUYE DAW USER</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style1.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"> </script> 
+
+	    <script
+	        src="https://code.jquery.com/jquery-3.1.1.min.js"
+	        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	        crossorigin="anonymous">
+	    </script>
+    </head>
+    <body>
+        <div id="titleDiv">
+            <h1> Welcome User </h1>
+        </div>
+
+        <div style="padding: 10px;"></div>
+
+        <div id="mainDiv">
+
+            <form action="ref_fold/page_2.html" target="_blank" id="orderFORM" method="GET">
+                <!-- COMBOBOX -->
+                <label>Cloth type</label>
+                <select name="cloths" id="cloths" style="margin: 10px;">
+                    <option value="pant">Pant</option>
+                    <option value="shirt">Shirt</option>
+                    <option value="Shari">Panjabi</option>
+                    <option value="shoe">Shoe</option>
+                </select>
+
+                <span style="padding: 20px;"></span>
+                
+                <label> Service Type</label>
+                <select name="service" id="service" style="margin: 10px;">
+                    <option value="wash">Wash</option>
+                    <option value="iron">Iron</option>
+                    <option value="drywash">Drywash</option>
+                    <option value="shoeRep">Shoe Repair & Polish</option>
+                </select>
+
+                <span style="padding: 20px;"></span>
+
+                <label> Quantity Select</label>
+                <input type="number" name="quantity" value="">
+
+                <span style="padding: 20px;"></span>
+                
+                <label> Area Select</label>
+                <select name="area" id="area" style="margin: 10px;">
+                    <option value="1">Mohammadpur</option>
+                    <option value="2">Gulshan</option>
+                    <option value="3">Malibagh</option>
+                    <option value="4">Dhanmondi</option>
+                </select>
+                
+                <span style="padding: 20px;"></span>
+                
+                <label> Delivery Type</label>
+                <select name="area" id="area" style="margin: 10px;">
+                    <option value="exp">Express Delivery</option>
+                    <option value="reg">Regular Delivery</option>
+                </select>
+
+                <input type="button" name="bill" id="billBtn" value="Generate Bill">
+                <input class="ui " type="text" name="billAmount" value="150">
+            </form>
+
+            <br>
+            <button class="ui large button" type="submit" form="orderFORM" value="placeOrder">Place Order</button>
+        </div>
+       
+        <button class="ui button"> <a href="Login.html">Go back></a> </button>
+
+    </body>
+</html>
