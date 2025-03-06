@@ -5,14 +5,12 @@
 
 ## Tech Stack
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Express.js
+- **Backend:** PHP
 - **Database:** MySQL
-- **Authentication:** OAuth 2.0
 - **Payment Integration:** bKash API
 
 ## Features
 - **Online Booking** – Users can schedule laundry pickups through the platform.
 - **Secure Payments** – Integrated with bKash for easy and secure transactions.
 - **Order Tracking** – Real-time tracking of laundry service status.
-- **User Authentication** – OAuth 2.0 for secure login and account management.
 - **Responsive Design** – Accessible on desktop and mobile devices.
